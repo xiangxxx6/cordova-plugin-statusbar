@@ -238,6 +238,7 @@ public class StatusBar extends CordovaPlugin {
                         View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                                 | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
                 window.setStatusBarColor(Color.TRANSPARENT);
+                //移除导航栏状态设置
             }
             else {
                 window.getDecorView().setSystemUiVisibility(
